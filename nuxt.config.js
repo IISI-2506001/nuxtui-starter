@@ -1,4 +1,4 @@
-// nuxt.config.ts
+// nuxt.config.js
 export default defineNuxtConfig({
   ssr: false,
   modules: ["@nuxt/eslint", "@nuxt/ui"],
@@ -12,7 +12,7 @@ export default defineNuxtConfig({
   compatibilityDate: "2025-01-15",
 
   nitro: {
-    preset: "static",
+    preset: "node-server",
   },
 
   app: {
