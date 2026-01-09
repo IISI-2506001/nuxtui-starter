@@ -12,11 +12,12 @@ export default defineNuxtConfig({
   compatibilityDate: "2025-01-15",
 
   nitro: {
-    preset: "node-server",
+    preset: "github-pages",
   },
 
   app: {
     baseURL: "/nuxtui-starter/",
+    buildAssetsDir: "assets",
   },
 
   runtimeConfig: {
